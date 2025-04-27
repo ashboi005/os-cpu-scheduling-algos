@@ -5,6 +5,7 @@ This repository contains Python implementations of various CPU scheduling algori
 ## Implemented Algorithms
 
 *   **First-Come, First-Served (FCFS):** [`fcfs.py`](fcfs.py)
+*   **FCFS but with Arrival Times:** [`fcfs-arrival.py`](fcfs-arrival.py)
 *   **Shortest Job First (SJF) (Non-Preemptive):** [`sjf.py`](sjf.py)
 *   **Shortest Remaining Time First (SRTF) (Preemptive SJF):** [`srtf.py`](srtf.py)
 *   **Priority Scheduling (Non-Preemptive):** [`priority_np.py`](priority_np.py)
