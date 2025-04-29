@@ -1,8 +1,8 @@
 # FCFS CPU Scheduling Simulation with Arrival Times
 
 num_processes = int(input("Enter number of processes: "))
-arrival_times = list(map(int, input("Enter arrival times: ").split()))
-burst_times   = list(map(int, input("Enter burst times: ").split()))
+arrival_times = [int(x) for x in input("Enter the arrival times: ").split()]
+burst_times   = [int(x) for x in input("Enter burst times: ").split()]
 
 #combine arrival and burst times with process IDs
 process_list = [
